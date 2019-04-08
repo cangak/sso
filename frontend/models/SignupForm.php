@@ -12,8 +12,9 @@ class SignupForm extends Model
 {
     public $username;
     public $email;
-    public $NIDN;
     public $password;
+    public $sk;
+    public $ktp;
 
 
     /**
